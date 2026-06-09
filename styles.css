@@ -1,0 +1,28 @@
+body{
+    font-family: "Open Sans", sans-serif, interital;
+    background-color: lightcoral;
+    color: black;
+}
+
+.practice{
+    /* font-weight:900;  */
+    font-weight: bold; 
+    font-style:oblique;
+}
+
+.filler{
+    line-height:2;
+}
+
+/* this is a nested selector */
+header h1{
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
