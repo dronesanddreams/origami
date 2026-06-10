@@ -1,7 +1,16 @@
+*{
+    font-size: 100%;
+    margin: 0px;
+    line-height: 1;
+    /* border: 1px solid green; */
+}
 body{
     font-family: "Open Sans", sans-serif, interital;
     background-color: lightcoral;
     color: black;
+    font-family: open-sans;
+    font-size: medium;
+    margin: 50px;
 }
 
 .practice{
@@ -25,4 +34,45 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+h1, h2{
+    margin-bottom: 20;
+}
+
+body {
+    margin: 20px 20px 20px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+ul, ol {
+    margin: 15px 0;
+}
+
+header,
+section,
+footer {
+    padding: 30px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+section {
+    border: 1px dashed red;
+}
+
+header {
+    border-bottom: 5px solid grey;
+}
+
+section {
+  border: 1px solid gainsboro;
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
 }
